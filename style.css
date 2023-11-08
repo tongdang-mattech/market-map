@@ -1,0 +1,128 @@
+#map {
+  height: 100vh;
+  width: 100%;
+}
+
+.title-address {
+  display: inline-block;
+  margin-bottom: 4px;
+  font-weight: 700;
+  font-size: 18px !important;
+  width: 100%;
+}
+
+.item-content {
+  font-size: 14px !important;
+}
+
+.searchbar-custom {
+  text-indent: 24px;
+  height: 50px;
+}
+
+.icon-center {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-text-stroke: 2px white;
+  line-height: 22px !important;
+  color: black !important;
+}
+
+.icon-table {
+  -webkit-text-stroke: 2px white;
+  line-height: 22px !important;
+  color: black;
+  font-size: 20px;
+}
+
+.icon-close {
+  right: 8px;
+  cursor: pointer;
+  -webkit-text-stroke: 3px white;
+}
+#close_dialog_btn {
+  position: fixed !important;
+  top: 32px !important;
+  right: 32px !important;
+  z-index: 999;
+  -webkit-text-stroke: 1px white;
+  top: 8px;
+}
+
+.card {
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.12),
+    0 1px 2px 1px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  /* box-shadow: 0 1px rgba(0, 0, 0, 0.15);
+                transition: all 0.3s ease-in-out; */
+}
+
+.card:hover {
+  box-shadow: 0 14px 28px 14px rgba(0, 0, 0, 0.25),
+    0 10px 10px 5px rgba(0, 0, 0, 0.22);
+  /* box-shadow: 0 15px rgba(0, 0, 0, 0.3);
+                transition: opacity 0.3s ease-in-out; */
+}
+
+.list-store {
+  height: calc(100vh - 34px - 40.8px - 8px - 8px - 8px - 8px);
+  overflow-y: auto !important;
+}
+
+.title {
+  background-color: #333333 !important;
+  color: #fdf7d4 !important;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+#search_btn {
+  width: 100% !important;
+}
+
+#search_container input {
+  border-radius: 0px;
+}
+
+button.gm-ui-hover-effect {
+  visibility: hidden;
+}
+
+#dialog_btn {
+  border: 0;
+  cursor: pointer;
+}
+
+#dialog {
+  border: none !important;
+  padding-left: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 8px !important;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+#table_header tr th {
+  min-width: 250px;
+}
+
+.tableFixHead thead th {
+  position: sticky;
+  top: -1px;
+  z-index: 1;
+}
+th {
+  background: #eee;
+}
